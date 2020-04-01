@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="result" id="Result">
+            0
+        </div>                    
+        <div class="row1">
+                <div class="r1 k1" onclick="readval('erase')" id="R1K1">
+                    AC
+                </div>
+                <div class="r1 k2" onclick="readval('plusminus')" id="R1K2">
+                    +/-
+                </div>
+                <div class="r1 k3" onclick="readval('percentage')" id="R1K3">
+                    %
+                </div>
+                <div class="r1 k4" onclick="readval('/')" id="R1K4">
+                    /
+                </div>
+        </div>            
+        <div class="row2">
+                <div class="r2 k1" onclick="readval('7')" id="R2K1">
+                    7
+                </div>
+                <div class="r2 k2" onclick="readval('8')" id="R2K2">
+                    8
+                </div>
+                <div class="r2 k3" onclick="readval('9')" id="R2K3">
+                    9
+                </div>
+                <div class="r2 k4" onclick="readval('X')" id="R2K4">
+                    X
+                </div>
+        </div>   
+        <div class="row3">
+                <div class="r3 k1" onclick="readval('4')" id="R3K1">
+                    4
+                </div>
+                <div class="r3 k2" onclick="readval('5')" id="R3K2">
+                    5
+                </div>
+                <div class="r3 k3" onclick="readval('6')" id="R3K3">
+                    6
+                </div>
+                <div class="r3 k4" onclick="readval('-')" id="R3K4">
+                    -
+                </div>
+        </div>  
+        <div class="row4">
+                <div class="r4 k1" onclick="readval('1')" id="R4K1">
+                    1
+                </div>
+                <div class="r4 k2" onclick="readval('2')" id="R4K2">
+                    2
+                </div>
+                <div class="r4 k3" onclick="readval('3')" id="R4K3">
+                    3
+                </div>
+                <div class="r4 k4" onclick="readval('+')" id="R4K4">
+                    +
+                </div>
+        </div>               
+        <div class="row5">
+                <div class="r5 k1" onclick="readval('0')" id="R5K1">
+                    0
+                </div>
+                <div class="r5 k2" onclick="readval('.')" id="R5K2">
+                    .
+                </div>
+                <div class="r5 k4" onclick="readval('=')" id="R1K4">
+                    =
+                </div>                
+        </div>   
+    </div>
+    <script src="js/calculator.js"></script>
+</body>
+</html>

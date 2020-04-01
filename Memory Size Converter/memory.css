@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.wrapper{
+    text-align: center;
+    color: whitesmoke;
+    background-color:black;
+    max-width: 400vw;
+    max-height: 700px;
+    border: 3px solid lightslategray;
+    border-radius: 2em;
+}
+
+.heading{
+    margin: 2.3em;     
+}
+
+.inp , .from  , .totype{
+    margin: 1em;
+
+}
+
+#Input{
+    margin-bottom:1em;
+}
+
+.frommenu , .tomenu{
+    margin: 1em;
+}
+
+.totype{
+    margin:1.5em;    
+}
+
+#calc{
+    margin:.7em;
+}
+
+.result{
+    margin: .6em;
+}
+

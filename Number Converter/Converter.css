@@ -1,0 +1,80 @@
+body
+{
+    color:#0074D9;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container
+{
+    display: grid;
+    grid-template-rows: 10% 15% 10% 15% 15% 15%;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    border: 3px solid darkslategray;
+    border-radius: 1em;
+}
+
+#Selected
+{
+    width: 40vh;
+    background-color: darkslategrey;
+    color: white;
+    border-color: darkslategray;
+    border-radius: 0.5em;
+}
+
+#number
+{
+    width: 40vh;
+    background-color: darkslategray;
+    border-color: darkslategray;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.butn
+{
+    border-radius: 0.6em;
+    background-color: darkslategray;
+    border:none;
+    color:white;
+    font-size: 0.7em;
+    width:15vh;
+}
+
+.butn:hover
+{
+    background-color: lightslategray;
+}
+
+.container > div
+{
+    margin-top: 3em;
+}
+
+
+
+
+

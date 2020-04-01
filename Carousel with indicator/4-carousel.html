@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/carouseli.css">
+</head>
+<body>
+    <div class="Bodygrid">
+        <div>
+            <img src="https://github.com/RadCoder71/images/blob/master/Codepen/left.png?raw=true" onclick="slideLeft()" alt="left" class="Prev arrow">
+        </div>
+        <div class="Container">
+            <div class="Imagecontainer">                  
+                <div class="Img 1 active" >
+                    <img src="https://github.com/RadCoder71/images/blob/master/Codepen/3.png?raw=true" alt="1" class="imag">
+                </div>
+                <div class="Img 2">
+                    <img src="https://github.com/RadCoder71/images/blob/master/Codepen/1.png?raw=true" alt="2" class="imag">
+                </div>
+                <div class="Img 3">
+                    <img src="https://github.com/RadCoder71/images/blob/master/Codepen/4.png?raw=true" alt="3" class="imag">
+                </div>        
+            </div>                   
+        </div>
+        <div>
+            <img src="https://github.com/RadCoder71/images/blob/master/Codepen/right.png?raw=true" onclick="slideRight()" alt="right" class="Next arrow">
+        </div>        
+    </div>
+    <div class="Indicator">
+        <div class="Centerindicator">
+            <img src="https://github.com/RadCoder71/images/blob/master/Codepen/Dot.png?raw=true"  id ="ig" alt="dot" class="dot d1 active1" onclick="changeSlide(0)">
+            <img src="https://github.com/RadCoder71/images/blob/master/Codepen/Dot.png?raw=true" id ="ig" alt="dot" class="dot d2" onclick="changeSlide(1)">        
+            <img src="https://github.com/RadCoder71/images/blob/master/Codepen/Dot.png?raw=true" id="ig" alt="dot" class="dot d3" onclick="changeSlide(2)">                
+        </div>
+    </div>
+    <script src="js/carouseli.js"></script>
+</body>
+</html>

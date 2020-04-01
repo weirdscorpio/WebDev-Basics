@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/temp.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="container">
+                <p class="heading">Temperature Converter</p>
+                <div class="one">
+                    Temperature
+                </div>
+                <input type="number" value="0" id="tem">
+                <div class="unit">
+                    Unit of Temperature
+                    <div class="drop" id="menu">
+                        <select name="Temp" id="From" onchange="Fr(this.value)">
+                            <option selected="Selected" value="C" id="1">Celsius</option>
+                            <option value="F" id="2">Farenheit</option>
+                            <option value="K" id="3">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                        Convert to 
+                        <div class="drop" id="To">
+                            <select name="Temp" id="Temp" onchange="T(this.value)">
+                                <option selected="Selected" value="C" id="1">Celsius</option>
+                                <option value="F" id="2">Farenheit</option>
+                                <option value="K" id="3">Kelvin</option>
+                            </select>
+                        </div>
+                </div>                          
+                <button onclick="Calc()">Calculate</button>                
+                <div id="Result" class="result">
+                    Result : 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/temp.js"></script>
+</body>
+</html>

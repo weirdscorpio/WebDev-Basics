@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Converter</title>
+    <link rel="stylesheet" href="css/memory.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="container">
+                <div class="heading">
+                    Computer memory size converter
+                </div>
+                <div class="inp">
+                    Memory Size                                        
+                </div>
+                <input type="number" value="0" min="0" id="Input"> 
+                <div class="from">
+                    Unit of memory size
+                    <div class="frommenu">
+                        <select name="Memtype" id="Fromtype" onchange="From(this.value)">
+                            <option value="Bit">Bit</option>
+                            <option value="Byte">Byte</option>
+                            <option value="Kilobyte">KiloByte (KB)</option>
+                            <option value="Megabyte">MegaByte (MB)</option>
+                            <option value="Gigabyte">GigaByte (GB)</option>
+                            <option value="Terabyte">TeraByte (TB)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="totype">
+                    Convert to
+                    <div class="tomenu">
+                        <select name="Memtype" id="Totype" onchange="To(this.value)">
+                            <option value="Bit">Bit</option>
+                            <option value="Byte">Byte</option>
+                            <option value="Kilobyte">KiloByte (KB)</option>
+                            <option value="Megabyte">MegaByte (MB)</option>
+                            <option value="Gigabyte">GigaByte (GB)</option>
+                            <option value="Terabyte">TeraByte (TB)</option>
+                        </select>
+                    </div>
+                    <div class="but">
+                        <button id="calc" onclick="Calc()">Calculate</button>
+                    </div>
+                    <div id="Result" class="result">
+                        Result : 
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>  
+    <script src="js/memory.js"></script>  
+</body>
+</html>

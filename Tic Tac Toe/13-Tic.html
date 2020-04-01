@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/tic.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <header>Tic Tac Toe</header>
+            <div class="container">
+                <div id="d1">                    
+                    <button id="b1" onclick="Mark(1)" class="But"> </button>                    
+                </div>
+                <div id="d2">
+                    <button id="b2" onclick="Mark(2)" class="But"> </button>
+                </div>
+                <div id="d3">
+                    <button id="b3" onclick="Mark(3)" class="But"> </button>
+                </div>
+                <div id="d4">
+                    <button id="b4" onclick="Mark(4)" class="But"> </button>
+                </div>
+                <div id="d5">
+                    <button id="b5" onclick="Mark(5)" class="But"> </button>
+                </div>
+                <div id="d6">
+                    <button id="b6" onclick="Mark(6)" class="But"> </button>
+                </div>
+                <div id="d7">
+                    <button id="b7" onclick="Mark(7)" class="But"> </button>
+                </div>
+                <div id="d8">
+                    <button id="b8" onclick="Mark(8)" class="But"> </button>
+                </div>
+                <div id="d9">
+                    <button id="b9" onclick="Mark(9)" class="But"> </button>
+                </div>                
+            </div>  
+            <div class="outcome">
+                <div class="out">
+                    <span class="txtt">Player 1 --</span>
+                    <span class="Result User" id="Resu">
+                        0 : 
+                    </span>
+                    <span class="Result Comp" id="Resc">
+                        0 
+                    </span>
+                    <span class="txtt">-- Player 2</span>
+                </div>
+                <div class="Resultstring" id="Ress">
+                        
+                </div>             
+                <div id="res">
+                    <button id="again" onclick="Reset()">Play Again</button>        
+                </div>
+            </div>
+        </div>        
+    </div>    
+    <script src="js/tic.js"></script>
+</body>
+</html>

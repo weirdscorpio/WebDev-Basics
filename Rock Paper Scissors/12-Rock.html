@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="css/rock.css">
+</head>
+<body>
+    <div class="main">        
+        <div class="wrapper">
+            <div class="container">   
+                <div class="heading">
+                    <i>Rock Paper Scissors</i> 
+                </div>
+                <p class="choice">Make your Choice</p>             
+                <div class="toWrap">
+                    <img src="https://img.icons8.com/color/48/000000/angry-fist.png" alt="rock paper sci" class="imaag" onclick="Res(0)"/>
+                    <img src="https://img.icons8.com/color/48/000000/hand.png" alt="rock paper sci" class="imaag" onclick="Res(1)"/>
+                    <img src="https://img.icons8.com/color/48/000000/two-fingers.png" alt="rock paper sci" class="imaag" onclick="Res(2)"/>
+                </div>
+                <span class="txtt">Player</span>
+                <span class="result user" id="Resu">
+                    0 : 
+                </span>
+                <span class="result comp" id="Resc">
+                    0 
+                </span>
+                <span class="txtt">Computer</span>
+                <div class="resultstring" id="Ress">
+                    Won
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/Rock.js"></script>
+</body>
+</html>

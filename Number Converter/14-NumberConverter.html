@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Converter</title>
+    <link rel="stylesheet" href="css/Converter.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="container">
+                <div>
+                    Enter base
+                </div>
+                <div class="base">
+                    <select name="Base" id="Selected" onchange="Str(this.value)">
+                        <option value="2">2(Binary)</option>
+                        <option value="8">8(Octal)</option>
+                        <option value="10">10(Decimal)</option>
+                        <option value="16">16(HexaDecimal)</option>
+                    </select>
+                </div>
+                <div>
+                    Enter Number
+                </div>
+                <div>
+                    <input type="text" id="number">
+                </div>
+                <div class="Btn">
+                    <button class="butn" onclick="Calc(2)">Binary</button>
+                    <button class="butn" onclick="Calc(8)">Octal</button>
+                    <button class="butn" onclick="Calc(10)">Decimal</button>
+                    <button class="butn" onclick="Calc(16)">HexaDecimal</button> 
+                </div>
+                <div id="result">
+                    Output
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/Converter.js"></script>
+</body>
+</html>

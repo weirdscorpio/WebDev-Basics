@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper
+{
+    background-color:darkslategrey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;    
+}
+
+h1
+{
+    color:black;
+    font-size: 1.5em;
+    text-align: center;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+    justify-items: center;
+    align-items: center;
+    border: black solid 2px;
+}
+.red
+{
+    color: red;
+}
+
+.green
+{
+    color:green;
+}
+
+.blue
+{
+    color:blue
+}
+
+.color
+{      
+    background-color: black;
+    height: 40px;
+    width:80px;
+}

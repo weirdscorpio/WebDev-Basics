@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(214, 149, 95);     
+}
+
+.Bodygrid{
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+.imag{
+    margin-top: 3em;
+    max-width: 70vw;
+    max-height: 80vh;
+}
+
+.Imagecontainer{
+    display: flex;    
+}
+
+.Img{
+    display: none;
+}
+
+.active{
+    align-self : center;
+    display: block;
+}
+
+.Prev
+{   margin-top: 16%;
+    margin-left: 5%;
+    height : 2em;
+}
+
+.Next
+{   margin-top: 16%;
+    margin-right: 2%;
+    height : 2em;
+}
+
+.Indicator{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;        
+}
+
+.Centerindicator{
+    align-items: center;
+    justify-items: center;    
+}
+
+.dot{
+    width:10px;   
+    
+}
+
+.active1
+{
+    border: 2px solid blanchedalmond;
+    border-radius: 1em;
+}

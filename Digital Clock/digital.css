@@ -1,0 +1,36 @@
+body
+{
+    background-color: black;
+    
+}
+
+.wrapper 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 17em;
+}
+
+.container
+{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 22.5% 5% 22.5% 5% 22.5% 22.5%;
+    width: 500px;
+    height: 100px;
+    justify-items:center;
+    align-items: center;
+    font-size: 3em;    
+}
+
+.colon
+{
+    animation: blinker 1s ease-in infinite;
+}
+
+@keyframes blinker {
+    0% { color: grey; }
+    33% { color:lightslategray; }
+    66% { color :darkslategray; }
+    100% { color: black; }
+}

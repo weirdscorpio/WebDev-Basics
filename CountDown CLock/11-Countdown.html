@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Clock</title>
+    <link rel="stylesheet" href="css/Countdown.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="container">                
+                <div class="text">
+                    <h2>Enter date</h2>
+                    <input type="datetime-local" id="Dat">                                        
+                </div>
+                <div><button onclick="Count()" class="Butt">Start</button></div>                                                                      
+                <div class="disp">
+                    <span class="one">Days</span>
+                    <span>Hours</span>
+                    <span>Minutes</span>
+                    <span>Seconds</span>
+                </div>
+                <div class="clock">
+                    <div class="days" id="Dy">
+                        00
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div class="hours" id="Hr">
+                        00
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div class="minutes" id="Mn">
+                        00
+                    </div>
+                    <div>
+                        :
+                    </div >
+                    <div class="seconds" id="Sc">
+                        00
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <script src="js/Countdown.js"></script>
+</body>
+</html>
